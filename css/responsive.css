@@ -1,0 +1,51 @@
+body{
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: optimizeLegibility !important;
+    overflow-x: hidden !important;
+}
+
+.contact_btn{
+    background: #F86F6F;
+    padding: 1em;
+    font-size: 1.3em;
+    font-weight: 300;
+    display: inline-block;
+    width: 35%;
+    margin: auto;
+    border-radius: 30px;
+}
+.contact{
+    color: rgb(0, 108, 180) !important;
+}
+
+
+.email_a:hover{
+    color: rgb(0, 108, 180) !important;;
+}
+   
+
+@media screen and (max-width:720px){
+    h1{
+        font-size: 1.6em !important;
+    }
+    h2{
+        font-size: 1.7em !important;
+    }
+    .img_about{
+        height: 20px !important;
+    }
+    
+}
+
+@media screen and (max-width:360px){
+    h1{
+        font-size: 1.4em !important;
+        line-height: 1.5em !important;
+    }
+    h2{
+        font-size: 1.5em !important;
+        font-weight: 200 !important;
+        line-height: 1.3em !important;
+    }
+}
